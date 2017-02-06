@@ -14,13 +14,14 @@ Login as host.  Go to Host Menu/Extensions.  Click Install Extension.  Select th
 
 Be sure to register the library in code behind and include the CSS file in your HTML!
 
-Example to register library: ```html
+Example to register library 
+```html
 JavaScript.RequestRegistration("bootstrap2Toggle")
 ```
 
 Example to include css:
 ```html
-<dnn:dnncssinclude runat="server" filepath="~/Resources/Libraries/bootstrap2Toggle/02_02_00/bootstrap-toggle.min.css" />
+<dnn:dnncssinclude runat="server" filepath="~/Resources/Libraries/bootstrapToggle/02_02_00/bootstrap2-toggle.min.css" />
 ```
 
 ### Basic example
