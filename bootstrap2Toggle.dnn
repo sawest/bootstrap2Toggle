@@ -1,0 +1,47 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="bootstrap2Toggle" type="JavaScript_Library" version="2.2.0">
+      <friendlyName>Bootstrap 2 Toggle</friendlyName>
+      <description><![CDATA[ 
+<p>For Bootstrap version 2.3.2!! Bootstrap 2 Toggle is a highly flexible Bootstrap plugin that converts checkboxes into toggles.</p>
+<p>To get started, check out the <a href="http://www.bootstraptoggle.com/">Bootstrap Toggle Webpage</a></p>
+      ]]></description>
+      <owner>
+        <name>Steven A West</name>
+        <organization>Itawamba Community College</organization>
+        <url>http://www.iccms.edu</url>
+        <email>sawest@iccms.edu</email>
+      </owner>
+      <license src="LICENSE" />
+      <releaseNotes src="README.md" />
+      <azureCompatible>true</azureCompatible>
+      <components>
+        <component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>bootstrap2Toggle</libraryName>
+            <fileName>bootstrap2-toggle.min.js</fileName>
+            <preferredScriptLocation>BodyBottom</preferredScriptLocation>
+            <CDNPath>https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap2-toggle.min.js</CDNPath>
+            <objectName>bootstrap2Toggle</objectName>
+          </javaScriptLibrary>
+        </component>
+<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>bootstrap2Toggle</libraryFolderName>
+            <jsfile>
+              <name>bootstrap2-toggle.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component> 
+ <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Resources\Libraries\bootstrap2Toggle\02_02_00</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
